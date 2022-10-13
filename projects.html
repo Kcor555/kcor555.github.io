@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="font-size: 62.5%;">
 	<head>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<meta charset="UTF-8">
-		<title>Projects List</title>
+		<script src="https://kit.fontawesome.com/0a2f9b888f.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="style.css">
+
+		<title>Projects List</title>
 	</head>
-	<body class="projects-body">
 
+	<body class="pj-body">
 		<nav class="home-nav">
-
 			<div class="home-nav__logo">
-				<a target="_blank" href="https://github.com/Kcor555"><img src="assets/images/github-logo-light.png" alt=""></a>
+				<a target="_blank" href="https://github.com/Kcor555">
+					<img src="assets/images/github-logo-light.png" alt="">
+				</a>
 			</div>
 
-			<div class="projects-button-wrapper">
+			<div class="pj--button-wrapper">
 				<a href="projects.html" class="projects-button">
 					<span>Projects</span>
 				</a>
@@ -22,57 +25,169 @@
 
 		</nav>
 
-		<div class="projects-wrapper">
+		<div class="pj-wrapper">
 
-			<a class="projects-links" href="index.html">
-				<div class="projects-card">
+			<div class="pj-card">
+				<div class="pj-card__flip pj-card__front-color-1">
+					<div class="pj-card__title">
+						<i class="fa-solid fa-house fa-icon"></i>
+						<h4>Home</h4>
+					</div>
 
-					<div class="projects-card-title">Home</div>
-					<div class="projects-card-description"></div>
+					<div class="pj-card__details">
+						<p>This will take you to the home page.</p>
+					</div>
+				</div>
 
+				<div class="pj-card__flip pj-card__back pj-card__back-color-1">
+					<div class="pj-card__cta">
+						<p class="pj-card__cta-text">Return to Home Page</p>
+						<a href="index.html" class="pj-btn">Select</a>
+					</div>
 				</div>
-			</a>
+			</div>
 
-			<a class="projects-links" href="projects/dashboard-mockup.html">
-				<div class="projects-card">
-					<div class="projects-card-title">Dashboard Demo</div>
-					<div class="projects-card-description"></div>
-				</div>
-			</a>
+			<div class="pj-card">
+				<div class="pj-card__flip pj-card__front-color-6">
+					<div class="pj-card__title">
+						<i class="fas fa-plane fa-icon"></i>
+						<h4>Dashboard</h4>
+					</div>
 
-			<a class="projects-links" href="projects/cool-search-widget.html">
-				<div class="projects-card">
-					<div class="projects-card-title">Cool Search Widget</div>
-					<div class="projects-card-description"></div>
+					<div class="pj-card__details">
+						<p>Dashboard Demo is a mockup of a simple user dashboard</p>
+					</div>
 				</div>
-			</a>
-			<a class="projects-links" href="projects/cool-cards.html">
-				<div class="projects-card">
-					<div class="projects-card-title">Cool Cards</div>
-					<div class="projects-card-description"></div>
-				</div>
-			</a>
-			<a class="projects-links" href="projects/sign-in-page.html">
-				<div class="projects-card">
-					<div class="projects-card-title">Sign-in Page</div>
-					<div class="projects-card-description"></div>
-				</div>
-			</a>
-			<a class="projects-links" href="projects/rotate-hidden-nav.html">
-				<div class="projects-card">
-					<div class="projects-card-title">Rotate Hidden Nav</div>
-					<div class="projects-card-description"></div>
-				</div>
-			</a>
 
-			<a class="projects-links" href="projects/progressing-steps.html">
-				<div class="projects-card">
-					<div class="projects-card-title">Progressing Steps</div>
-					<div class="projects-card-description`"></div>
+				<div class="pj-card__flip pj-card__back pj-card__back-color-6">
+					<div class="pj-card__cta">
+						<p class="pj-card__cta-text">Go to DashBoard Demo</p>
+						<a href="projects/dashboard-mockup.html" class="pj-btn">Select</a>
+					</div>
 				</div>
-			</a>
+			</div>
+
+			<div class="pj-card">
+				<div class="pj-card__flip pj-card__front-color-3">
+					<div class="pj-card__title">
+						<i class="fa-solid fa-magnifying-glass fa-icon"></i>
+						<h4>Search</h4>
+					</div>
+
+					<div class="pj-card__details">
+						<p>Fun Little Search Widget</p>
+					</div>
+				</div>
+
+				<div class="pj-card__flip pj-card__back pj-card__back-color-3">
+					<div class="pj-card__cta">
+						<p class="pj-card__cta-text">Checkout the search widget</p>
+						<a href="projects/cool-search-widget.html" class="pj-btn">Select</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="pj-card">
+				<div class="pj-card__flip pj-card__front-color-4">
+					<div class="pj-card__title">
+						<i class="fa-solid fa-cards-blank"></i>
+						<i class="fa-solid fa-magnifying-glass fa-icon"></i>
+						<h4>Cards</h4>
+					</div>
+
+					<div class="pj-card__details">
+						<p>Cool Expanding Cards</p>
+					</div>
+				</div>
+
+				<div class="pj-card__flip pj-card__back pj-card__back-color-4">
+					<div class="pj-card__cta">
+						<p class="pj-card__cta-text">Expanding Card Display</p>
+						<a href="projects/cool-cards.html" class="pj-btn">Select</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="pj-card">
+				<div class="pj-card__flip pj-card__front-color-5">
+					<div class="pj-card__title">
+						<i class="fa-solid fa-laptop fa-icon"></i>
+						<h4>Sign In Page</h4>
+					</div>
+
+					<div class="pj-card__details">
+						<p>Custom Sign in Page</p>
+					</div>
+				</div>
+
+				<div class="pj-card__flip pj-card__back pj-card__back-color-5">
+					<div class="pj-card__cta">
+						<p class="pj-card__cta-text">Go to Sign in Page</p>
+						<a href="projects/sign-in-page.html" class="pj-btn">Select</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="pj-card">
+				<div class="pj-card__flip pj-card__front-color-2">
+					<div class="pj-card__title">
+						<i class="fa-solid fa-eye fa-icon"></i>
+						<h4>Hidden Nav</h4>
+					</div>
+
+					<div class="pj-card__details">
+						<p>Rotating Navigation Menu</p>
+					</div>
+				</div>
+
+				<div class="pj-card__flip pj-card__back pj-card__back-color-2">
+					<div class="pj-card__cta">
+						<p class="pj-card__cta-text">Click to view Rotating Menu</p>
+						<a href="projects/rotate-hidden-nav.html" class="pj-btn">Select</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="pj-card">
+				<div class="pj-card__flip pj-card__front-color-7">
+					<div class="pj-card__title">
+						<i class="fa-solid fa-bars-staggered fa-icon"></i>
+						<h4>Steps</h4>
+					</div>
+
+					<div class="pj-card__details">
+						<p>Progressing Steps</p>
+					</div>
+				</div>
+
+				<div class="pj-card__flip pj-card__back pj-card__back-color-7">
+					<div class="pj-card__cta">
+						<p class="pj-card__cta-text">Continue to steps</p>
+						<a href="projects/progressing-steps.html" class="pj-btn">Select</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="pj-card">
+				<div class="pj-card__flip pj-card__front-color-6">
+					<div class="pj-card__title">
+						<i class="fa-solid fa-umbrella-beach fa-icon"></i>
+						<h4>Placeholder</h4>
+					</div>
+
+					<div class="pj-card__details">
+						<p>Placeholder</p>
+					</div>
+				</div>
+
+				<div class="pj-card__flip pj-card__back pj-card__back-color-6">
+					<div class="pj-card__cta">
+						<p class="pj-card__cta-text">Placeholder</p>
+						<a href="#" class="pj-btn">Select</a>
+					</div>
+				</div>
+			</div>
 
 		</div>
-
 	</body>
 </html>
