@@ -70,7 +70,7 @@
 .projects-button {
 	display: block;
 	position: relative;
-	background-color: var(--project-blue);
+	background-color: var(--project-light-grey);
 	border: 2px solid var(--project-white);
 	border-radius: 5px;
 	color: var(--project-white);
@@ -100,7 +100,7 @@
 }
 
 .projects-button:hover {
-	color: var(--project-blue);
+	color: var(--project-light-grey);
 }
 
 .projects-button:hover:after {
@@ -1004,3 +1004,11 @@ input.sign-container__login-email:focus-visible {
 .btn:focus {
 	outline: 0;
 }
+
+
+/*
+===============================
+
+===============================
+*/
+
