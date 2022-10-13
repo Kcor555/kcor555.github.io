@@ -1,0 +1,135 @@
+
+.pj-cta-flyout-container {
+	background: #f4f4f4;
+	font-family: Epilogue, sans-serif;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.home-nav {
+	background-image: linear-gradient(#2C7BE9, #379DF8);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 1rem 0 1rem 2rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.home-nav__logo {
+	margin-left: 2rem;
+}
+
+.projects-button {
+	background-color: #2C7BE9;
+}
+
+.projects-button:hover {
+	color: #2C7BE9;
+}
+
+.calendar-fly__link {
+	position: fixed;
+	top: 175px;
+	right: -255px;
+	transition: 0.5s;
+	padding: 10px;
+	width: 285px;
+	height: 24px;
+	text-decoration: none;
+	font-size: 19px;
+	color: #FFFFFF;
+	border-radius: 5px 0 0 5px;
+	background-image: linear-gradient(#2C7BE9, #379DF8);
+}
+
+.calendar-fly__link:hover {
+	right: 0;
+}
+
+i.far.fa-calendar.fa-lg {
+	margin-top: 3px;
+	padding: 0 25px 0 5px;
+}
+
+.pj-ctacard-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 15rem;
+
+
+}
+
+.pj-ctacard {
+	display: block;
+	position: relative;
+	background-color: #2C7AE9;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(117, 117, 117, 0.50);
+	color: var(--project-white);
+	font-size: 20px;
+	max-width: 475px;
+	min-width: 350px;
+	height: 500px;
+	text-decoration: none;
+}
+
+.pj-ctacard__wrapper {
+	position: relative;
+	padding: 2rem;
+	font-weight: 200;
+}
+
+.pj-ctacard__title {
+	font-size: 30px;
+	font-weight: 500;
+	padding-bottom: 1rem;
+}
+
+.pj-ctacard__link {
+	padding-top: 2rem;
+}
+
+.pj-ctacard__link span {
+	color: var(--project-white);
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.pj-ctacard__link i {
+	padding-left: 15px;
+	margin-left: 0;
+	transition: margin-left 0.5s ease-in-out;
+}
+
+
+.pj-ctacard:hover {
+	box-shadow: 5px 5px 10px rgba(97, 97, 97, 0.15);
+}
+
+.pj-ctacard:hover
+.pj-ctacard__link i {
+	margin-left: 1.5rem;
+	transition: margin-left 0.5s ease-in-out;
+}
+
+.pj-ctacard__image-wrap {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+
+.pj-ctacard__image-wrap img {
+	position: absolute;
+	border-radius: 10px;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	max-width: 100%;
+}
