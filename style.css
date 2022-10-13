@@ -351,13 +351,22 @@
 	text-align: center;
 	color: var(--project-white);
 	transform: translate(-50%, -50%);
-
 }
 
 .pj-card__cta-text {
 	font-size: 1.75rem;
 	text-transform: uppercase;
-	margin-bottom: 8rem;
+	margin-bottom: 2rem;
+}
+
+.pj-card__cta-credit {
+	font-size: 1.5rem;
+	font-style: italic;
+	margin-bottom: 1rem;
+}
+
+.pj-card__cta a {
+	margin-top: 6rem;
 }
 
 .pj-btn,
