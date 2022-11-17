@@ -130,3 +130,16 @@ function refresh() {
 		next.disabled = false
 	}
 }
+
+/*
+========================
+   DARK MODE
+========================
+*/
+
+// function darkMode() {
+// 	//add dark class to body
+// 	document.body.classList.toggle("dark");
+// 	//change the text of the button
+// 	darkButton.textContent = document.body.classList.contains("dark") ? "Light Mode" : "Dark Mode";
+// }
