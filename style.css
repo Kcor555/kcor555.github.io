@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
 	--project-blue: #4b79A1;
@@ -110,6 +110,29 @@
 .projects-button:active {
 	transform: scale(.9);
 	box-shadow: 0 3px 15px -2px;
+}
+
+
+.demo-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 2rem;
+	width: 100%;
+
+}
+
+.demo {
+	color: var(--project-white);
+	font-size: 18px;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid transparent;
+}
+
+.demo:hover {
+	border: 1px solid var(--project-white);
+	border-radius: 3px;
 }
 
 @media (min-width: 768px) {
@@ -426,6 +449,11 @@
       COOL CARDS
 ========================
 */
+
+.landscapes-wrapper .demo-wrapper {
+
+}
+
 .landscapes-wrapper {
 	font-family: 'Epilogue', 'sans-serif';
 	background-color: #19191A;
@@ -447,6 +475,7 @@
 
 .landscapes-title-wrapper {
 	padding-bottom: 2rem;
+	padding-top: 2rem;
 }
 
 .landscapes-title-wrapper h1 {
